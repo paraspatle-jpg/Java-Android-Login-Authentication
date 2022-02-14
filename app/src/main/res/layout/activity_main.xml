@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="415dp"
+        android:layout_height="71dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="345dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="something@gmail.com"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="332dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="285dp"
+        android:layout_height="41dp"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
