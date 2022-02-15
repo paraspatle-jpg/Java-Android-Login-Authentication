@@ -7,13 +7,29 @@
     android:background="#FFFFFF"
     android:backgroundTint="#FFFFFF"
     android:fadingEdge="horizontal|vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="345dp"
+        android:layout_height="54dp"
+        android:background="#9C27B0"
+        android:text="Dont have an account? Signup"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="345dp"
         android:layout_height="54dp"
         android:background="#9C27B0"
-        android:text="Signup"
+        android:text="Login"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,7 +43,7 @@
         android:id="@+id/Login"
         android:layout_width="380dp"
         android:layout_height="49dp"
-        android:text="Signup"
+        android:text="Login"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#9C27B0"
@@ -46,7 +62,7 @@
         android:backgroundTint="#9C27B0"
         android:ems="10"
         android:fontFamily="sans-serif"
-        android:hint="Pick a UserName"
+        android:hint="Enter Your UserName"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:textColor="#9C27B0"
@@ -68,7 +84,7 @@
         android:backgroundTint="#9C27B0"
         android:ems="10"
         android:fontFamily="sans-serif"
-        android:hint="Set a Password"
+        android:hint="Enter Your Password"
         android:inputType="numberPassword"
         android:textAlignment="center"
         android:textColor="#9C27B0"
@@ -81,6 +97,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.361" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
